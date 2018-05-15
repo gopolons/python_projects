@@ -44,3 +44,11 @@ list_a = [3, 9, 17, 15, 19]
 list_b = [2, 4, 8, 10, 30, 40, 50, 60, 70, 80, 90]
 for a, b in zip(list_a, list_b):
     print(max(a, b))
+
+#example of uses of lists in if/else statements with for
+friends = ['John', 'Ellie', 'David', 'Martha', 'Duncan']
+for f in friends:
+  if f == 'Duncan':
+    print(f + ' is not a friend!')
+  else:
+    print(f + ' is a friend')
