@@ -1,6 +1,6 @@
 from random import randint
 
-ver = str(1.0)
+ver = str(1.1)
 #def lists of words
 happy = ["а", "у", "нас", "всё", "хорошо", "поздравляю", "всех", "с", "Новым", "Годом", "сегодня", "всем", "всего", "наилучшего", "в", "Москве", "много", "плюсов", "а", "минусам", "надо", "привыкнуть"]
 philosophy = ["свобода", "совокупность", "возможностей", "определяемая", "для", "всех", "природой", "и", "определённая", "для", "себя", "живым", "существом", "дыхание", "учителей", "дыхание", "победителей", "дыхание", "их", "учеников", "дыхание", "будущих", "победителей", "причём", "больших", "чем", "сами", "учителя", "кто", "то", "ещё", "смеет", "судить", "о", "жизни", "России", "для", "чего", "он", "это", "делает", "чтобы", "не", "находились", "те", "чернила", "у", "России", "которые", "опишут", "как", "сделать", "Россию", "лучше", "и", "в", "чем", "она", "уже", "хороша"]
@@ -10,7 +10,7 @@ science = ["между", "прочим", "один", "из", "корней", "у
 choices = ["Жизнерадостные", "Философия", "Патриотизм", "Наука"]
 
 print()
-print("Генератор фраз Миронова. Версия " + ver + ".") 
+print("Генератор фраз Миронова. Версия " + ver) 
 print()
 
 def prog():
@@ -31,21 +31,27 @@ def prog():
         length_choice = input("Пожалуйста, выбирите подходящую длинну цитаты: короткая, средняя, длинная: ").lower()
         if length_choice == "короткая":
             for x in range(6):
-                quote.append(happy[randint(0, (len(happy) - 1))])
+                new_word = happy[randint(0, (len(happy) - 1))]
+                happy.remove(new_word)
+                quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
             print(final_quote.capitalize() + ".")
             print()
         elif length_choice == "средняя":
             for x in range(12):
-                quote.append(happy[randint(0, (len(happy) - 1))])
+                new_word = happy[randint(0, (len(happy) - 1))]
+                happy.remove(new_word)
+                quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
             print(final_quote.capitalize() + ".")
             print()
         elif length_choice == "длинная":
             for x in range(18):
-                quote.append(happy[randint(0, (len(happy) - 1))])
+                new_word = happy[randint(0, (len(happy) - 1))]
+                happy.remove(new_word)
+                quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
             print(final_quote.capitalize() + ".")
@@ -62,21 +68,27 @@ def prog():
         length_choice = input("Пожалуйста, выбирите подходящую длинну цитаты: короткая, средняя, длинная: ").lower()
         if length_choice == "короткая":
             for x in range(6):
-                quote.append(philosophy[randint(0, (len(philosophy) - 1))])
+                new_word = philosophy[randint(0, (len(philosophy) - 1))]
+                philosophy.remove(new_word)
+                quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
             print(final_quote.capitalize() + ".")
             print()
         elif length_choice == "средняя":
             for x in range(12):
-                quote.append(philosophy[randint(0, (len(philosophy) - 1))])
+                new_word = philosophy[randint(0, (len(philosophy) - 1))]
+                philosophy.remove(new_word)
+                quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
             print(final_quote.capitalize() + ".")
             print()
         elif length_choice == "длинная":
             for x in range(18):
-                quote.append(philosophy[randint(0, (len(philosophy) - 1))])
+                new_word = philosophy[randint(0, (len(philosophy) - 1))]
+                philosophy.remove(new_word)
+                quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
             print(final_quote.capitalize() + ".")
@@ -91,21 +103,27 @@ def prog():
         length_choice = input("Пожалуйста, выбирите подходящую длинну цитаты: короткая, средняя, длинная: ").lower()
         if length_choice == "короткая":
             for x in range(6):
-                quote.append(patriotic[randint(0, (len(patriotic) - 1))])
+                new_word = patriotic[randint(0, (len(patriotic) - 1))]
+                patriotic.remove(new_word)
+                quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
             print(final_quote.capitalize() + ".")
             print()
         elif length_choice == "средняя":
             for x in range(12):
-                quote.append(patriotic[randint(0, (len(patriotic) - 1))])
+                new_word = patriotic[randint(0, (len(patriotic) - 1))]
+                patriotic.remove(new_word)
+                quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
             print(final_quote.capitalize() + ".")
             print()
         elif length_choice == "длинная":
             for x in range(18):
-                quote.append(patriotic[randint(0, (len(patriotic) - 1))])
+                new_word = patriotic[randint(0, (len(patriotic) - 1))]
+                patriotic.remove(new_word)
+                quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
             print(final_quote.capitalize() + ".")
@@ -119,21 +137,27 @@ def prog():
         length_choice = input("Пожалуйста, выбирите подходящую длинну цитаты: короткая, средняя, длинная: ").lower()
         if length_choice == "короткая":
             for x in range(6):
-                quote.append(science[randint(0, (len(science) - 1))])
+                new_word = science[randint(0, (len(science) - 1))]
+                science.remove(new_word)
+                quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
             print(final_quote.capitalize() + ".")
             print()
         elif length_choice == "средняя":
             for x in range(12):
-                quote.append(science[randint(0, (len(science) - 1))])
+                new_word = science[randint(0, (len(science) - 1))]
+                science.remove(new_word)
+                quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
             print(final_quote.capitalize() + ".")
             print()
         elif length_choice == "длинная":
             for x in range(18):
-                quote.append(science[randint(0, (len(science) - 1))])
+                new_word = science[randint(0, (len(science) - 1))]
+                science.remove(new_word)
+                quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
             print(final_quote.capitalize() + ".")
