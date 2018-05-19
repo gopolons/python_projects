@@ -1,4 +1,6 @@
 from random import randint
+from datetime import datetime
+now = datetime.now()
 
 ver = str(1.2)
 #def lists of words
@@ -48,7 +50,7 @@ def prog():
                 quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
-            print(final_quote.capitalize() + ".")
+            print(final_quote.capitalize() + ". (c) Григорий Миронов, %04d." % (now.year))
             again()
         elif length_choice == "средняя" or length_choice == " средняя" or length_choice == "средняя ":
             for x in range(12):
@@ -57,7 +59,7 @@ def prog():
                 quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
-            print(final_quote.capitalize() + ".")
+            print(final_quote.capitalize() + ". (c) Григорий Миронов, %04d." % (now.year))
             again()
         elif length_choice == "длинная" or length_choice == " длинная" or length_choice == "длинная ":
             for x in range(18):
@@ -66,7 +68,7 @@ def prog():
                 quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
-            print(final_quote.capitalize() + ".")
+            print(final_quote.capitalize() + ". (c) Григорий Миронов, %04d." % (now.year))
             again()
         else:
             print("Извините, такого варианта не существует.")
@@ -89,7 +91,7 @@ def prog():
                 quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
-            print(final_quote.capitalize() + ".")
+            print(final_quote.capitalize() + ". (c) Григорий Миронов, %04d." % (now.year))
             again()
         elif length_choice == "средняя" or length_choice == " средняя" or length_choice == "средняя ":
             for x in range(12):
@@ -98,7 +100,7 @@ def prog():
                 quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
-            print(final_quote.capitalize() + ".")
+            print(final_quote.capitalize() + ". (c) Григорий Миронов, %04d." % (now.year))
             again()
         elif length_choice == "длинная" or length_choice == " длинная" or length_choice == "длинная ":
             for x in range(18):
@@ -107,7 +109,7 @@ def prog():
                 quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
-            print(final_quote.capitalize() + ".")
+            print(final_quote.capitalize() + ". (c) Григорий Миронов, %04d." % (now.year))
             again()
         else:
             print("Извините, такого варианта не существует.")
@@ -128,7 +130,7 @@ def prog():
                 quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
-            print(final_quote.capitalize() + ".")
+            print(final_quote.capitalize() + ". (c) Григорий Миронов, %04d." % (now.year))
             again()
         elif length_choice == "средняя" or length_choice == " средняя" or length_choice == "средняя ":
             for x in range(12):
@@ -137,7 +139,7 @@ def prog():
                 quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
-            print(final_quote.capitalize() + ".")
+            print(final_quote.capitalize() + ". (c) Григорий Миронов, %04d." % (now.year))
             again()
         elif length_choice == "длинная" or length_choice == " длинная" or length_choice == "длинная ":
             for x in range(18):
@@ -146,7 +148,7 @@ def prog():
                 quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
-            print(final_quote.capitalize() + ".")
+            print(final_quote.capitalize() + ". (c) Григорий Миронов, %04d." % (now.year))
             again()
         else:
             print("Извините, такого варианта не существует.")
@@ -166,7 +168,7 @@ def prog():
                 quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
-            print(final_quote.capitalize() + ".")
+            print(final_quote.capitalize() + ". (c) Григорий Миронов, %04d." % (now.year))
             again()
         elif length_choice == "средняя" or length_choice == " средняя" or length_choice == "средняя ":
             for x in range(12):
@@ -175,7 +177,7 @@ def prog():
                 quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
-            print(final_quote.capitalize() + ".")
+            print(final_quote.capitalize() + ". (c) Григорий Миронов, %04d." % (now.year))
             again()
         elif length_choice == "длинная" or length_choice == " длинная" or length_choice == "длинная ":
             for x in range(18):
@@ -184,7 +186,7 @@ def prog():
                 quote.append(new_word)
             print()
             final_quote = (" ".join(quote))
-            print(final_quote.capitalize() + ".")
+            print(final_quote.capitalize() + ". (c) Григорий Миронов, %04d." % (now.year))
             again()
         else:
             print("Извините, такого варианта не существует.")
